@@ -1,0 +1,61 @@
+html{
+  height: 100%;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  border: solid 1px;
+  border-radius: 10px;
+  padding: 5px;
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 1rem;
+}
+
+.front-section{
+  background-color: #f875aa;
+  color: white;
+  height: 100%;
+  font-family: 'Hi Melody', cursive;
+  position: relative;
+  font-size: 2rem;
+}
+
+.second-section{
+  background-color: #fbaccc;
+  color: #822659;
+  height: 100%;
+  font-family: 'Nanum Myeongjo', serif;
+  position: relative;
+}
+
+.container{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.second-section .container{
+  text-align: left;
+}
+
+.text{
+  display: inline-block;
+}
+
+img{
+  display: inline-block;
+  width: 30%;
+  margin: 10px;
+  margin-left: 10%;
+}
